@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:title="Home"
+            />
+        <item android:id="@+id/contact"
+            android:title="contact"
+            />
+        <item android:id="@+id/Gallery"
+            android:title="Gallery"
+            />
+
+    </group>
+    <item android:title="Profile">
+    <menu >
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/about"
+                android:title="about"
+                />
+            <item android:id="@+id/Login"
+                android:title="Login"
+                />
+        </group>
+
+    </menu>
+    </item>
+    <item android:title="Comu">
+        <menu >
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/Shar"
+                    android:title="Shar"
+                    />
+                <item android:id="@+id/rate"
+                    android:title="rate"
+                    />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>
